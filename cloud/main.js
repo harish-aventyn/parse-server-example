@@ -1,7 +1,7 @@
 
 // Use Parse.Cloud.define to define as many cloud functions as you want.
 // For example:
-var moment = require('./cloud/moment');
+var moment = require('cloud/moment');
 moment().format();
 var numOfReminders = 4;
 var pushCount = 0;
